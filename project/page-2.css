@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100%;
+    width:100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to top,#C084D3,#D1649B,#F3A56C);
+    width:100%;
+    padding: 10px;
+}
+
+.image{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.header-text{
+    color:white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+.flex-image{
+    display: flex;
+    flex-direction:row; 
+} 
+.img{
+    height:150px;
+    width:150px;
+    margin-top:20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.img-1{
+    margin-bottom: 10px;
+}
+.space{
+    padding-top:30px;
+    padding-left:10px;
+}
+.text{
+    color:black;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+.button{
+    height:40px;
+    width:80px;
+    background-color:rgb(48, 131, 227);
+    transition: transform 0.9s ease;
+    border-width:0px;
+    border-radius:10px;
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+    margin-top:10px;
+}
+
+.button:hover{
+    transform: scale(1);
+}
+
+.article-container{
+    box-shadow: 3px 3px 3px 13x #dad9d9;
+    height:50%;
+    width:50%;
+    background-color:rgb(45, 44, 44);
+    padding:10px;
+    border-radius: 10px;
+}
+.head{
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+
+.button_1{
+    display: none;
+}
+.button_div_1{
+    float: right;
+}
+.button_11{
+    display:block;
+    height:35px;
+    width:90px;
+    background-color:rgb(48, 131, 227);
+    transition: transform 0.9s ease;
+    border-width:0px;
+    border-radius:10px;
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+    margin-top:10px;
+    
+}
+
+.unorder_list{
+    display: none;
+}
+.unorder_list_js{
+    display: block;
+    list-style-type: none;
+
+}
+.list_item{
+    margin:10px;
+}
+.label{
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+}
